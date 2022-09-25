@@ -2,3 +2,6 @@ name = "web"
 account_id = "2575000dd90a08dbbeb2b8cca2e64775" # scraper.workers.dev
 type = "webpack"
 workers_dev = true
+routes = [
+	{ pattern = "scraper.spin.rip", custom_domain = true, zone_name = "spin.rip" }
+]
